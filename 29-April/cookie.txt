@@ -1,0 +1,6 @@
+to create ---> res.cookie(cookiename , value , expiry(optional))
+
+to read ---> req.cookies
+             req.cookies.cookiename
+
+to delete ---> res.clearCookie(cookiename)
