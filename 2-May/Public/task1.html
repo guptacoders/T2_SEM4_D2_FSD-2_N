@@ -1,0 +1,21 @@
+<!-- Task : write a script to meet following requirements (Authentication)
+1)create index.html file page and open it on localhost.
+2)after clicking submit button, it should jump on “savesession” page. Store username in session.
+3)After saving session, redirect to “fetchsession” page and read value. Put a LOGOUT link
+button here.
+4)Jump on delete session page after clicking LOGOUT button.
+5)Destroy  -->
+<html>
+<body>
+<center>
+    <fieldset style="background-color: antiquewhite;">
+        <legend>Enter Username & Password</legend>
+<form method="get" action="/save">
+<div><input type = "text" name="uname" placeholder="Username" ></input></div><br>
+<div><input type = "password" name="pass" placeholder="Password"></input></div><br>
+<input type="submit" name="submit" value="Login" style="background-color: black; color: white;">
+</form>
+</fieldset>
+</center>
+</body>
+</html>
