@@ -1,0 +1,29 @@
+html 
+ head 
+  Title Pug Form 
+ body 
+  h2 Student Form
+  fieldset 
+   legend Student Form
+   form(action="/data",method="get")
+    div
+     label Enter Your Name
+     input(type="text",name="name")
+    br
+    div 
+     label Enter Your Email 
+     input(type="email",name="email")
+    br
+    div 
+     label Course
+      input(type="radio",name="course",value="IT",id="IT")
+      |IT
+      input(type="radio",name="course",value="CE",id="CE")
+      |CE 
+      input(type="radio",name="course",value="CSE",id="CSE")
+      |CSE
+    br
+    div
+     input(type="submit",value="Submit")
+
+    
